@@ -2,7 +2,7 @@
 @import '_nav.css';
 @import '_header.css';
 @import '_course.css';
-
+@import '_about.css';
 * {
     direction: rtl;
     padding: 0;

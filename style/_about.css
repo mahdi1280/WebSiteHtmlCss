@@ -1,0 +1,21 @@
+.about-title span{
+    position: relative;
+}
+.about-title span::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    top: 14px;
+    right: -50px;
+}
+.about-title span::after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    top: 14px;
+    right: 100px;
+}
