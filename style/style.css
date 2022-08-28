@@ -1,4 +1,4 @@
-@import 'cantact.css';
+@import '_cantact.css';
 
 * {
     direction: rtl;
@@ -7,23 +7,27 @@
     box-sizing: border-box;
 }
 
-/* stat nav bar style */
+/* stat mynav bar style */
 a {
     text-decoration: none;
 }
 
-.nav {
-    background-color: #efefef;
+.mynav {
     text-align: center;
     font-size: 18px;
+    background-color: #efefef;
+    display: -webkit-box;
 }
 
-.nav a {
+
+.mynav a {
+
+    float: right;
     padding: 14px 16px;
     color: rgb(46, 46, 46);
 }
 
-.nav a:hover {
+.mynav a:hover {
     border-bottom: 2px solid red;
 }
 
@@ -36,13 +40,30 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    
-    .nav a:not(:first-child){
+    .mynav a:not(:first-child){
         display: none;
     }
+    .mynav a.hamberger{
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+    .mynav.responsive{
+        position: relative;
+        display: block;
+    }
 
-    
-    
+    .mynav.responsive a.hamberger{
+        position: absolute;
+        top: 0;
+    }
+
+    .mynav.responsive a{
+        display: block;
+        float: none;
+        text-align: right;
+    }
+
 }
 
-/* end nav bar style */
+/* end mynav bar style */
