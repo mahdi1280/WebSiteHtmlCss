@@ -12,13 +12,19 @@ a {
     text-decoration: none;
 }
 
+.nav-section{
+    box-shadow: 1px 1px 1px 1px#efefef;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
 .mynav {
     text-align: center;
     font-size: 18px;
-    background-color: #efefef;
     display: -webkit-box;
+    
 }
-
 
 .mynav a {
 
