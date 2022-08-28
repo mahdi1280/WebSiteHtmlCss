@@ -1,6 +1,7 @@
 @import '_cantact.css';
 @import '_nav.css';
 @import '_header.css';
+@import '_course.css';
 
 * {
     direction: rtl;
@@ -8,8 +9,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* start header css */
-
-
-/* end header css */

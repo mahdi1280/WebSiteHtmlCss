@@ -1,0 +1,34 @@
+.course-title span{
+    position: relative;
+}
+.course-title span::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: -50px;
+}
+
+.course-title span::after{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+.profuct-img{
+    transition: filter 0.5s;
+}
+.product-card:hover .profuct-img{
+    filter: brightness(0.4);
+    cursor: pointer;
+}
+
+.profuct-img{
+    width: 100%;
+    height: 200px;
+}
