@@ -1,27 +1,48 @@
 @import 'cantact.css';
-*{
+
+* {
     direction: rtl;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* stat nav bar style */
-    a{
-        text-decoration: none;
-    }
-    .nav{
-        background-color: #efefef;
-        text-align: center;
-        font-size: 18px;
-    }
-    .nav a{
-        padding: 14px 16px;
-    }
-    .nav a:hover{
-        border-bottom: 2px solid red;
-    }
-    .active-menu{
-        border-bottom: 2px solid red;
-    }
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #efefef;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav a {
+    padding: 14px 16px;
+    color: rgb(46, 46, 46);
+}
+
+.nav a:hover {
+    border-bottom: 2px solid red;
+}
+
+.active-menu {
+    border-bottom: 2px solid red;
+}
+
+.hamberger {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
     
+    .nav a:not(:first-child){
+        display: none;
+    }
+
+    
+    
+}
+
 /* end nav bar style */

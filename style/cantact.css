@@ -3,7 +3,7 @@
     color: white;
     font-size: 14px;
 }
-.header .container .row .col-xs-6 .icon{
+.header .container .row .col-6 .icon{
     color: orange;
     margin-right: 15px;
 }
@@ -15,11 +15,13 @@
 }
 .soshial-media{
     text-align: left;
+
 }
 .soshial-media .f{
     color: wheat;
     width: 20px;
     height: 20px;
+    margin-right: 8px;
 }
 .soshial-media .f:hover{
     background-color: orange;
