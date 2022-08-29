@@ -5,6 +5,7 @@
 @import '_about.css';
 @import 'font.css';
 @import '_teacher.css';
+@import 'state.css';
 * {
     direction: rtl;
     padding: 0;
