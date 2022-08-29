@@ -19,3 +19,25 @@
     top: 14px;
     right: 100px;
 }
+.aboute-text .card{
+    background-color: #efefef;
+    margin: 0;
+    padding: 40px;
+    border: 0;
+    margin-top: 50px;
+    max-height: 270px;
+}
+.aboute-text{
+    margin: 0;
+    padding: 0;
+}
+.aboute-text .c-body{
+    padding-top: 8px;
+    color: #4d4d4d;
+
+}
+.aboute-text .c-header{
+    border-bottom: 1px solid #cdcdbe;
+    padding: 16px 0;
+}
+

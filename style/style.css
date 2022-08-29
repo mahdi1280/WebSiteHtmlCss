@@ -3,9 +3,12 @@
 @import '_header.css';
 @import '_course.css';
 @import '_about.css';
+@import 'font.css';
+@import '_teacher.css';
 * {
     direction: rtl;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Vazir;
 }

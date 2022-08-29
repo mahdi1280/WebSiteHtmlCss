@@ -18,13 +18,17 @@ figure{
     max-width: 500px;
 }
 
-.header-text a{
+.btn-custom{
     background-color: orange;
     padding: 6px 12px;
     border-radius: 4px;
     margin-top: 20px;
     float: left;
     color: #fff;
+}
+.btn-custom:hover{
+    color: white;
+    opacity: 0.8;
 }
 
 figure img{
